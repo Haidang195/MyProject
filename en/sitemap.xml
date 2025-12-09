@@ -2,6 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://haidang195.github.io/MyProject/5-workshop/5.01-workshop-overview/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://haidang195.github.io/MyProject/vi/5-workshop/5.01-workshop-overview/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://haidang195.github.io/MyProject/5-workshop/5.01-workshop-overview/"
+                />
+  </url><url>
     <loc>https://haidang195.github.io/MyProject/4-eventparticipated/4.2-event2/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -80,19 +93,6 @@
                 href="https://haidang195.github.io/MyProject/3-blogstranslated/3.3-blog3/"
                 />
   </url><url>
-    <loc>https://haidang195.github.io/MyProject/5-workshop/5.3-s3-vpc/5.3.1-create-gwe/</loc>
-    <lastmod>2025-09-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://haidang195.github.io/MyProject/vi/5-workshop/5.3-s3-vpc/5.3.1-create-gwe/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://haidang195.github.io/MyProject/5-workshop/5.3-s3-vpc/5.3.1-create-gwe/"
-                />
-  </url><url>
     <loc>https://haidang195.github.io/MyProject/</loc>
     <lastmod>2025-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -104,32 +104,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://haidang195.github.io/MyProject/"
-                />
-  </url><url>
-    <loc>https://haidang195.github.io/MyProject/5-workshop/5.1-workshop-overview/</loc>
-    <lastmod>2025-09-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://haidang195.github.io/MyProject/vi/5-workshop/5.1-workshop-overview/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://haidang195.github.io/MyProject/5-workshop/5.1-workshop-overview/"
-                />
-  </url><url>
-    <loc>https://haidang195.github.io/MyProject/5-workshop/5.4-s3-onprem/5.4.1-prepare/</loc>
-    <lastmod>2025-09-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://haidang195.github.io/MyProject/vi/5-workshop/5.4-s3-onprem/5.4.1-prepare/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://haidang195.github.io/MyProject/5-workshop/5.4-s3-onprem/5.4.1-prepare/"
                 />
   </url><url>
     <loc>https://haidang195.github.io/MyProject/1-worklog/1.1-week1/</loc>
@@ -262,30 +236,17 @@
                 href="https://haidang195.github.io/MyProject/1-worklog/"
                 />
   </url><url>
-    <loc>https://haidang195.github.io/MyProject/5-workshop/5.4-s3-onprem/5.4.2-create-interface-enpoint/</loc>
-    <lastmod>2025-09-09T00:00:00+00:00</lastmod>
+    <loc>https://haidang195.github.io/MyProject/5-workshop/5.02-setup-environment/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://haidang195.github.io/MyProject/vi/5-workshop/5.4-s3-onprem/5.4.2-create-interface-enpoint/"
+                href="https://haidang195.github.io/MyProject/vi/5-workshop/5.02-setup-environment/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://haidang195.github.io/MyProject/5-workshop/5.4-s3-onprem/5.4.2-create-interface-enpoint/"
-                />
-  </url><url>
-    <loc>https://haidang195.github.io/MyProject/5-workshop/5.2-prerequiste/</loc>
-    <lastmod>2025-09-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://haidang195.github.io/MyProject/vi/5-workshop/5.2-prerequiste/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://haidang195.github.io/MyProject/5-workshop/5.2-prerequiste/"
+                href="https://haidang195.github.io/MyProject/5-workshop/5.02-setup-environment/"
                 />
   </url><url>
     <loc>https://haidang195.github.io/MyProject/2-proposal/</loc>
@@ -299,19 +260,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://haidang195.github.io/MyProject/2-proposal/"
-                />
-  </url><url>
-    <loc>https://haidang195.github.io/MyProject/5-workshop/5.3-s3-vpc/5.3.2-test-gwe/</loc>
-    <lastmod>2025-09-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://haidang195.github.io/MyProject/vi/5-workshop/5.3-s3-vpc/5.3.2-test-gwe/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://haidang195.github.io/MyProject/5-workshop/5.3-s3-vpc/5.3.2-test-gwe/"
                 />
   </url><url>
     <loc>https://haidang195.github.io/MyProject/1-worklog/1.10-week10/</loc>
@@ -353,30 +301,17 @@
                 href="https://haidang195.github.io/MyProject/1-worklog/1.12-week12/"
                 />
   </url><url>
-    <loc>https://haidang195.github.io/MyProject/5-workshop/5.3-s3-vpc/</loc>
-    <lastmod>2025-09-09T00:00:00+00:00</lastmod>
+    <loc>https://haidang195.github.io/MyProject/5-workshop/5.03-cdk-bootstrap/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://haidang195.github.io/MyProject/vi/5-workshop/5.3-s3-vpc/"
+                href="https://haidang195.github.io/MyProject/vi/5-workshop/5.03-cdk-bootstrap/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://haidang195.github.io/MyProject/5-workshop/5.3-s3-vpc/"
-                />
-  </url><url>
-    <loc>https://haidang195.github.io/MyProject/5-workshop/5.4-s3-onprem/5.4.3-test-endpoint/</loc>
-    <lastmod>2025-09-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://haidang195.github.io/MyProject/vi/5-workshop/5.4-s3-onprem/5.4.3-test-endpoint/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://haidang195.github.io/MyProject/5-workshop/5.4-s3-onprem/5.4.3-test-endpoint/"
+                href="https://haidang195.github.io/MyProject/5-workshop/5.03-cdk-bootstrap/"
                 />
   </url><url>
     <loc>https://haidang195.github.io/MyProject/3-blogstranslated/</loc>
@@ -392,17 +327,17 @@
                 href="https://haidang195.github.io/MyProject/3-blogstranslated/"
                 />
   </url><url>
-    <loc>https://haidang195.github.io/MyProject/5-workshop/5.4-s3-onprem/</loc>
-    <lastmod>2025-09-09T00:00:00+00:00</lastmod>
+    <loc>https://haidang195.github.io/MyProject/5-workshop/5.04-configure-stacks/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://haidang195.github.io/MyProject/vi/5-workshop/5.4-s3-onprem/"
+                href="https://haidang195.github.io/MyProject/vi/5-workshop/5.04-configure-stacks/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://haidang195.github.io/MyProject/5-workshop/5.4-s3-onprem/"
+                href="https://haidang195.github.io/MyProject/5-workshop/5.04-configure-stacks/"
                 />
   </url><url>
     <loc>https://haidang195.github.io/MyProject/4-eventparticipated/</loc>
@@ -418,34 +353,21 @@
                 href="https://haidang195.github.io/MyProject/4-eventparticipated/"
                 />
   </url><url>
-    <loc>https://haidang195.github.io/MyProject/5-workshop/5.4-s3-onprem/5.4.4-dns-simulation/</loc>
-    <lastmod>2025-09-09T00:00:00+00:00</lastmod>
+    <loc>https://haidang195.github.io/MyProject/5-workshop/5.05-configure-api-lambda/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://haidang195.github.io/MyProject/vi/5-workshop/5.4-s3-onprem/5.4.4-dns-simulation/"
+                href="https://haidang195.github.io/MyProject/vi/5-workshop/5.05-configure-api-lambda/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://haidang195.github.io/MyProject/5-workshop/5.4-s3-onprem/5.4.4-dns-simulation/"
-                />
-  </url><url>
-    <loc>https://haidang195.github.io/MyProject/5-workshop/5.5-policy/</loc>
-    <lastmod>2025-09-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://haidang195.github.io/MyProject/vi/5-workshop/5.5-policy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://haidang195.github.io/MyProject/5-workshop/5.5-policy/"
+                href="https://haidang195.github.io/MyProject/5-workshop/5.05-configure-api-lambda/"
                 />
   </url><url>
     <loc>https://haidang195.github.io/MyProject/5-workshop/</loc>
-    <lastmod>2025-09-09T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -457,17 +379,17 @@
                 href="https://haidang195.github.io/MyProject/5-workshop/"
                 />
   </url><url>
-    <loc>https://haidang195.github.io/MyProject/5-workshop/5.6-cleanup/</loc>
-    <lastmod>2025-09-09T00:00:00+00:00</lastmod>
+    <loc>https://haidang195.github.io/MyProject/5-workshop/5.06-deploy-backend/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://haidang195.github.io/MyProject/vi/5-workshop/5.6-cleanup/"
+                href="https://haidang195.github.io/MyProject/vi/5-workshop/5.06-deploy-backend/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://haidang195.github.io/MyProject/5-workshop/5.6-cleanup/"
+                href="https://haidang195.github.io/MyProject/5-workshop/5.06-deploy-backend/"
                 />
   </url><url>
     <loc>https://haidang195.github.io/MyProject/6-self-evaluation/</loc>
@@ -483,6 +405,19 @@
                 href="https://haidang195.github.io/MyProject/6-self-evaluation/"
                 />
   </url><url>
+    <loc>https://haidang195.github.io/MyProject/5-workshop/5.07-test-endpoints/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://haidang195.github.io/MyProject/vi/5-workshop/5.07-test-endpoints/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://haidang195.github.io/MyProject/5-workshop/5.07-test-endpoints/"
+                />
+  </url><url>
     <loc>https://haidang195.github.io/MyProject/7-feedback/</loc>
     <lastmod>2025-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -494,6 +429,32 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://haidang195.github.io/MyProject/7-feedback/"
+                />
+  </url><url>
+    <loc>https://haidang195.github.io/MyProject/5-workshop/5.08-push-gitlab/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://haidang195.github.io/MyProject/vi/5-workshop/5.08-push-gitlab/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://haidang195.github.io/MyProject/5-workshop/5.08-push-gitlab/"
+                />
+  </url><url>
+    <loc>https://haidang195.github.io/MyProject/5-workshop/5.09-cleanup/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://haidang195.github.io/MyProject/vi/5-workshop/5.09-cleanup/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://haidang195.github.io/MyProject/5-workshop/5.09-cleanup/"
                 />
   </url><url>
     <loc>https://haidang195.github.io/MyProject/categories/</loc>
