@@ -1,0 +1,2039 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.150.0">
+    <meta
+  name="description"
+  content=""
+/>
+<meta name="author" content="thienlh@thienlu.com" />
+
+    <link rel="icon" href="../../images/favicon.png" type="image/png">
+
+    <title>Blog 2 :: Internship Report</title>
+
+    
+    <link href="../../css/nucleus.css?1765273466" rel="stylesheet">
+    <link href="../../css/fontawesome-all.min.css?1765273466" rel="stylesheet">
+    <link href="../../css/hybrid.css?1765273466" rel="stylesheet">
+    <link href="../../css/featherlight.min.css?1765273466" rel="stylesheet">
+    <link href="../../css/perfect-scrollbar.min.css?1765273466" rel="stylesheet">
+    <link href="../../css/auto-complete.css?1765273466" rel="stylesheet">
+    <link href="../../css/atom-one-dark-reasonable.css?1765273466" rel="stylesheet">
+    <link href="../../css/theme.css?1765273466" rel="stylesheet">
+    <link href="../../css/hugo-theme.css?1765273466" rel="stylesheet">
+    
+    <link href="../../css/theme-workshop.css?1765273466" rel="stylesheet">
+    
+    
+
+    <script src="../../js/jquery-3.3.1.min.js?1765273466"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+
+  </head>
+  <body class="" data-url="../../3-blogstranslated/3.2-blog2/">
+    <nav
+  id="sidebar"
+  class="showVisitedLinks"
+>
+   
+  <div id="header-wrapper">
+    <div id="header"><a id="logo" href="../../">
+  <svg
+    id="Layer_1"
+    data-name="Layer 1"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 60 30"
+    width="30%"
+  >
+    <defs>
+      <style>
+        .cls-1 {
+          fill: #fff;
+        }
+        .cls-2 {
+          fill: #f90;
+          fill-rule: evenodd;
+        }
+      </style>
+    </defs>
+    <title>AWS-Logo_White-Color</title>
+    <path
+      class="cls-1"
+      d="M14.09,10.85a4.7,4.7,0,0,0,.19,1.48,7.73,7.73,0,0,0,.54,1.19.77.77,0,0,1,.12.38.64.64,0,0,1-.32.49l-1,.7a.83.83,0,0,1-.44.15.69.69,0,0,1-.49-.23,3.8,3.8,0,0,1-.6-.77q-.25-.42-.51-1a6.14,6.14,0,0,1-4.89,2.3,4.54,4.54,0,0,1-3.32-1.19,4.27,4.27,0,0,1-1.22-3.2A4.28,4.28,0,0,1,3.61,7.75,6.06,6.06,0,0,1,7.69,6.46a12.47,12.47,0,0,1,1.76.13q.92.13,1.91.36V5.73a3.65,3.65,0,0,0-.79-2.66A3.81,3.81,0,0,0,7.86,2.3a7.71,7.71,0,0,0-1.79.22,12.78,12.78,0,0,0-1.79.57,4.55,4.55,0,0,1-.58.22l-.26,0q-.35,0-.35-.52V2a1.09,1.09,0,0,1,.12-.58,1.2,1.2,0,0,1,.47-.35A10.88,10.88,0,0,1,5.77.32,10.19,10.19,0,0,1,8.36,0a6,6,0,0,1,4.35,1.35,5.49,5.49,0,0,1,1.38,4.09ZM7.34,13.38a5.36,5.36,0,0,0,1.72-.31A3.63,3.63,0,0,0,10.63,12,2.62,2.62,0,0,0,11.19,11a5.63,5.63,0,0,0,.16-1.44v-.7a14.35,14.35,0,0,0-1.53-.28,12.37,12.37,0,0,0-1.56-.1,3.84,3.84,0,0,0-2.47.67A2.34,2.34,0,0,0,5,11a2.35,2.35,0,0,0,.61,1.76A2.4,2.4,0,0,0,7.34,13.38Zm13.35,1.8a1,1,0,0,1-.64-.16,1.3,1.3,0,0,1-.35-.65L15.81,1.51a3,3,0,0,1-.15-.67.36.36,0,0,1,.41-.41H17.7a1,1,0,0,1,.65.16,1.4,1.4,0,0,1,.33.65l2.79,11,2.59-11A1.17,1.17,0,0,1,24.39.6a1.1,1.1,0,0,1,.67-.16H26.4a1.1,1.1,0,0,1,.67.16,1.17,1.17,0,0,1,.32.65L30,12.39,32.88,1.25A1.39,1.39,0,0,1,33.22.6a1,1,0,0,1,.65-.16h1.54a.36.36,0,0,1,.41.41,1.36,1.36,0,0,1,0,.26,3.64,3.64,0,0,1-.12.41l-4,12.86a1.3,1.3,0,0,1-.35.65,1,1,0,0,1-.64.16H29.25a1,1,0,0,1-.67-.17,1.26,1.26,0,0,1-.32-.67L25.67,3.64,23.11,14.34a1.26,1.26,0,0,1-.32.67,1,1,0,0,1-.67.17Zm21.36.44a11.28,11.28,0,0,1-2.56-.29,7.44,7.44,0,0,1-1.92-.67,1,1,0,0,1-.61-.93v-.84q0-.52.38-.52a.9.9,0,0,1,.31.06l.42.17a8.77,8.77,0,0,0,1.83.58,9.78,9.78,0,0,0,2,.2,4.48,4.48,0,0,0,2.43-.55,1.76,1.76,0,0,0,.86-1.57,1.61,1.61,0,0,0-.45-1.16A4.29,4.29,0,0,0,43,9.22l-2.41-.76A5.15,5.15,0,0,1,38,6.78a3.94,3.94,0,0,1-.83-2.41,3.7,3.7,0,0,1,.45-1.85,4.47,4.47,0,0,1,1.19-1.37A5.27,5.27,0,0,1,40.51.29,7.4,7.4,0,0,1,42.6,0a8.87,8.87,0,0,1,1.12.07q.57.07,1.08.19t.95.26a4.27,4.27,0,0,1,.7.29,1.59,1.59,0,0,1,.49.41.94.94,0,0,1,.15.55v.79q0,.52-.38.52a1.76,1.76,0,0,1-.64-.2,7.74,7.74,0,0,0-3.2-.64,4.37,4.37,0,0,0-2.21.47,1.6,1.6,0,0,0-.79,1.48,1.58,1.58,0,0,0,.49,1.18,4.94,4.94,0,0,0,1.83.92L44.55,7a5.08,5.08,0,0,1,2.57,1.6A3.76,3.76,0,0,1,47.9,11a4.21,4.21,0,0,1-.44,1.93,4.4,4.4,0,0,1-1.21,1.47,5.43,5.43,0,0,1-1.85.93A8.25,8.25,0,0,1,42.05,15.62Z"
+    ></path>
+    <path
+      class="cls-2"
+      d="M45.19,23.81C39.72,27.85,31.78,30,25,30A36.64,36.64,0,0,1,.22,20.57c-.51-.46-.06-1.09.56-.74A49.78,49.78,0,0,0,25.53,26.4,49.23,49.23,0,0,0,44.4,22.53C45.32,22.14,46.1,23.14,45.19,23.81Z"
+    ></path>
+    <path
+      class="cls-2"
+      d="M47.47,21.21c-.7-.9-4.63-.42-6.39-.21-.53.06-.62-.4-.14-.74,3.13-2.2,8.27-1.57,8.86-.83s-.16,5.89-3.09,8.35c-.45.38-.88.18-.68-.32C46.69,25.8,48.17,22.11,47.47,21.21Z"
+    ></path>
+  </svg>
+</a>
+</div>
+     <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="../../js/lunr.min.js?1765273466"></script>
+<script type="text/javascript" src="../../js/auto-complete.js?1765273466"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/thienluhoan.github.io\/workshop-template\/";
+    
+</script>
+<script type="text/javascript" src="../../js/search.js?1765273466"></script>
+ 
+  </div>
+
+  <div class="highlightable">
+    <ul class="topics">
+               
+<li
+  data-nav-id="/1-worklog/"
+  title="Worklog"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../1-worklog/">
+     <b> 1. </b> Worklog 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/1-worklog/1.1-week1/"
+  title="Week 1 Worklog"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../1-worklog/1.1-week1/">
+     <b> 1.1. </b> Week 1 Worklog 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/1-worklog/1.2-week2/"
+  title="Week 2 Worklog"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../1-worklog/1.2-week2/">
+     <b> 1.2. </b> Week 2 Worklog 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/1-worklog/1.3-week3/"
+  title="Week 3 Worklog"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../1-worklog/1.3-week3/">
+     <b> 1.3. </b> Week 3 Worklog 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/1-worklog/1.4-week4/"
+  title="Week 4 Worklog"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../1-worklog/1.4-week4/">
+     <b> 1.4. </b> Week 4 Worklog 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/1-worklog/1.5-week5/"
+  title="Week 5 Worklog"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../1-worklog/1.5-week5/">
+     <b> 1.5. </b> Week 5 Worklog 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/1-worklog/1.6-week6/"
+  title="Week 6 Worklog"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../1-worklog/1.6-week6/">
+     <b> 1.6. </b> Week 6 Worklog 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/1-worklog/1.7-week7/"
+  title="Week 7 Worklog"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../1-worklog/1.7-week7/">
+     <b> 1.7. </b> Week 7 Worklog 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/1-worklog/1.8-week8/"
+  title="Week 8 Worklog"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../1-worklog/1.8-week8/">
+     <b> 1.8. </b> Week 8 Worklog 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/1-worklog/1.9-week9/"
+  title="Week 9 Worklog"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../1-worklog/1.9-week9/">
+     <b> 1.9. </b> Week 9 Worklog 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/1-worklog/1.10-week10/"
+  title="Week 10 Worklog"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../1-worklog/1.10-week10/">
+     <b> 1.10. </b> Week 10 Worklog 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/1-worklog/1.11-week11/"
+  title="Week 11 Worklog"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../1-worklog/1.11-week11/">
+     <b> 1.11. </b> Week 11 Worklog 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/1-worklog/1.12-week12/"
+  title="Week 12 Worklog"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../1-worklog/1.12-week12/">
+     <b> 1.12. </b> Week 12 Worklog 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/2-proposal/"
+  title="Proposal"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../2-proposal/">
+     <b> 2. </b> Proposal 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+           
+<li
+  data-nav-id="/3-blogstranslated/"
+  title="Translated Blogs"
+  class="dd-item 
+        parent
+        
+        
+        "
+>
+  <a href="../../3-blogstranslated/">
+     <b> 3. </b> Translated Blogs 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/3-blogstranslated/3.1-blog1/"
+  title="Blog 1"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../3-blogstranslated/3.1-blog1/">
+     <b> 3.1. </b> Blog 1 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/3-blogstranslated/3.2-blog2/"
+  title="Blog 2"
+  class="dd-item 
+        
+        active
+        
+        "
+>
+  <a href="../../3-blogstranslated/3.2-blog2/">
+     <b> 3.2. </b> Blog 2 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/3-blogstranslated/3.3-blog3/"
+  title="Blog 3"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../3-blogstranslated/3.3-blog3/">
+     <b> 3.3. </b> Blog 3 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/4-eventparticipated/"
+  title="Events Participated"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../4-eventparticipated/">
+     <b> 4. </b> Events Participated 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/4-eventparticipated/4.2-event2/"
+  title="Event 2"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../4-eventparticipated/4.2-event2/">
+     <b> 4.2. </b> Event 2 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/4-eventparticipated/4.1-event1/"
+  title="Event 1"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../4-eventparticipated/4.1-event1/">
+     <b> 4.1. </b> Event 1 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/4-eventparticipated/4.3-event3/"
+  title="Event 3"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../4-eventparticipated/4.3-event3/">
+     <b> 4.2. </b> Event 3 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/5-workshop/"
+  title="Workshop"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../5-workshop/">
+     <b> 5. </b> Workshop 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/5-workshop/5.1-workshop-overview/"
+  title="Introduction"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../5-workshop/5.1-workshop-overview/">
+     <b> 5.1. </b> Introduction 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/5-workshop/5.2-prerequiste/"
+  title="Prerequiste"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../5-workshop/5.2-prerequiste/">
+     <b> 5.2. </b> Prerequiste 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/5-workshop/5.3-s3-vpc/"
+  title="Access S3 from VPC"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../5-workshop/5.3-s3-vpc/">
+     <b> 5.3. </b> Access S3 from VPC 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/5-workshop/5.3-s3-vpc/5.3.1-create-gwe/"
+  title="Create a gateway endpoint"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../5-workshop/5.3-s3-vpc/5.3.1-create-gwe/">
+     <b> 5.3.1 </b> Create a gateway endpoint 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/5-workshop/5.3-s3-vpc/5.3.2-test-gwe/"
+  title="Test the Gateway Endpoint"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../5-workshop/5.3-s3-vpc/5.3.2-test-gwe/">
+     <b> 5.3.2 </b> Test the Gateway Endpoint 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+    
+            
+<li
+  data-nav-id="/5-workshop/5.4-s3-onprem/"
+  title="Access S3 from on-premises"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../5-workshop/5.4-s3-onprem/">
+     <b> 5.4. </b> Access S3 from on-premises 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/5-workshop/5.4-s3-onprem/5.4.1-prepare/"
+  title="Prepare the environment"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../5-workshop/5.4-s3-onprem/5.4.1-prepare/">
+     <b> 5.4.1 </b> Prepare the environment 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/5-workshop/5.4-s3-onprem/5.4.2-create-interface-enpoint/"
+  title="Create an S3 Interface endpoint"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../5-workshop/5.4-s3-onprem/5.4.2-create-interface-enpoint/">
+     <b> 5.4.2 </b> Create an S3 Interface endpoint 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/5-workshop/5.4-s3-onprem/5.4.3-test-endpoint/"
+  title="Test the Interface Endpoint"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../5-workshop/5.4-s3-onprem/5.4.3-test-endpoint/">
+     <b> 5.4.3 </b> Test the Interface Endpoint 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/5-workshop/5.4-s3-onprem/5.4.4-dns-simulation/"
+  title="On-premises DNS Simulation"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../5-workshop/5.4-s3-onprem/5.4.4-dns-simulation/">
+     <b> 5.4.4 </b> On-premises DNS Simulation 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+    
+            
+<li
+  data-nav-id="/5-workshop/5.5-policy/"
+  title="VPC Endpoint Policies"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../5-workshop/5.5-policy/">
+     <b> 5.5. </b> VPC Endpoint Policies 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/5-workshop/5.6-cleanup/"
+  title="Clean up"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../5-workshop/5.6-cleanup/">
+     <b> 5.6. </b> Clean up 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/6-self-evaluation/"
+  title="Self-Assessment"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../6-self-evaluation/">
+     <b> 6. </b> Self-Assessment 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+           
+<li
+  data-nav-id="/7-feedback/"
+  title="Sharing and Feedback"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="../../7-feedback/">
+     <b> 7. </b> Sharing and Feedback 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+    </ul>
+
+     
+    <section id="shortcuts">
+      <h3>
+        More
+      </h3>
+      <ul>
+        
+        <li>
+          <a class="padding" href="https://www.facebook.com/groups/awsstudygroupfcj/"
+            ><i class='fab fa-facebook'></i> AWS Study Group</a
+          >
+        </li>
+        
+      </ul>
+    </section>
+   
+    <section id="prefooter">
+      <hr />
+      <ul>
+  
+        <li>
+          <a class="padding">
+            <i class="fas fa-language fa-fw"></i>
+            <div class="select-style">
+              <select id="select-language" onchange="location = this.value;">
+                       
+                <option
+                  id="en"
+                  value="https://thienluhoan.github.io/workshop-template/3-blogstranslated/3.2-blog2/"
+                  selected
+                >
+                  English
+                </option>
+                            
+                <option
+                  id="vi"
+                  value="https://thienluhoan.github.io/workshop-template/vi/3-blogstranslated/3.2-blog2/"
+                >
+                  Tiếng Việt
+                </option>
+                   
+              </select>
+              <svg
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                width="255px"
+                height="255px"
+                viewBox="0 0 255 255"
+                style="enable-background: new 0 0 255 255"
+                xml:space="preserve"
+              >
+                <g>
+                  <g id="arrow-drop-down">
+                    <polygon points="0,63.75 127.5,191.25 255,63.75 		" />
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </a>
+        </li>
+         
+        <li>
+          <a class="padding" href="#" data-clear-history-toggle=""
+            ><i class="fas fa-history fa-fw"></i> Clear History</a
+          >
+        </li>
+        
+      </ul>
+    </section>
+    
+    <section id="footer"><left>
+    
+    <b> Workshop</b> <br>
+    <img src="https://hitwebcounter.com/counter/counter.php?page=7920860&style=0038&nbdigits=9&type=page&initCount=0"
+        title="Migrate" Alt="web counter" border="0" /></a> <br>
+    <b> <a href="https://cloudjourney.awsstudygroup.com/">Cloud Journey</a></b> <br>
+    <img src="https://hitwebcounter.com/counter/counter.php?page=7830807&style=0038&nbdigits=9&type=page&initCount=0"
+        title="Total CLoud Journey" Alt="web counter" border="0" />
+
+</left>
+<left>
+    <br>
+    <br>
+    <b>Last Updated</b><br>
+    <i>
+        <span id="lastUpdated" style="color:orange;"></span>
+    </i>
+
+    <script>
+        
+        const today = new Date();
+        
+        const formattedDate = today.toLocaleDateString('en-GB');
+        
+        document.getElementById('lastUpdated').textContent = formattedDate;
+    </script>
+</left>
+<left>
+    <br>
+    <br>
+    <b> Team </b> <br>
+
+    <i> <a href="https://www.facebook.com/groups/660548818043427" style="color:orange">First Cloud Journey </a> <br>
+
+    </i>
+</left>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script></section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='../../'>Internship Report</a> > <a href='../../3-blogstranslated/'>Translated Blogs</a> > Blog 2
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+  <div class="wrapper"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#purpose">Purpose</a></li>
+    <li><a href="#instructions">Instructions</a></li>
+    <li><a href="#priority">Priority</a></li>
+    <li><a href="#error-handling">Error Handling</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#purpose-1">Purpose</a></li>
+    <li><a href="#instructions-1">Instructions</a></li>
+    <li><a href="#priority-1">Priority</a></li>
+    <li><a href="#error-handling-1">Error Handling</a></li>
+    <li><a href="#purpose-2">Purpose</a></li>
+    <li><a href="#instructions-2">Instructions</a></li>
+    <li><a href="#error-handling-2">Error Handling</a></li>
+    <li><a href="#instructions-3">Instructions</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#purpose-3">Purpose</a></li>
+    <li><a href="#instructions-4">Instructions</a></li>
+    <li><a href="#priority-2">Priority</a></li>
+    <li><a href="#error-handling-3">Error Handling</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#purpose-4">Purpose</a></li>
+    <li><a href="#instructions-5">Instructions</a></li>
+    <li><a href="#priority-3">Priority</a></li>
+    <li><a href="#error-handling-4">Error Handling</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#purpose-5">Purpose</a></li>
+    <li><a href="#instructions-6">Instructions</a></li>
+    <li><a href="#priority-4">Priority</a></li>
+    <li><a href="#error-handling-5">Error Handling</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#purpose-6">Purpose</a></li>
+    <li><a href="#instructions-7">Instructions</a></li>
+    <li><a href="#priority-5">Priority</a></li>
+    <li><a href="#error-handling-6">Error Handling</a></li>
+  </ul>
+</nav></div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Blog 2
+            </h1>
+          
+
+        
+
+
+
+	
+<div
+  class="notices warning"
+  
+>
+  <p>⚠️ <strong>Note:</strong> The information below is for reference purposes only. Please <strong>do not copy verbatim</strong> for your report, including this warning.</p>
+
+</div>
+
+<h1 id="mastering-amazon-q-developer-with-rules">Mastering Amazon Q Developer with Rules</h1>
+<p>By Aurelien Plancque | August 28, 2025 | in Amazon Q Developer | Permalink</p>
+<p>When I first started working with Amazon Q Developer, I was very impressed by its capabilities, but I quickly realized I was falling into a familiar pattern. Development teams that use AI assistants face a common challenge: repeatedly explaining coding standards, workflow options, and established patterns in every conversation. That repeated setup reduces productivity and creates inconsistency in AI guidance across team members. Sound familiar?</p>
+<p>That&rsquo;s when I discovered the power of custom rules — and it completely changed how I work with AI assistance.</p>
+<p>What are Amazon Q Developer rules?
+Rules in Amazon Q Developer are a way to build a library of coding standards and best practices that are automatically used as context when interacting with the assistant.</p>
+<p>These rules are defined in Markdown files stored in your project&rsquo;s .amazonq/rules directory. Once created, they automatically become part of the context for developers interacting with Amazon Q Developer in your project, maintaining consistency among team members regardless of their experience level. Currently, rules are supported in the Amazon Q Developer IDE extensions and in the Amazon Q Developer CLI.</p>
+<p>The power of rule-based AI assistance
+What I find most compelling about rule-based AI assistants is how they minimize the repetitive setup that often accompanies AI interactions. Instead of constantly instructing the AI assistant about your preferences and standards for every request, you can define them once as rules. This creates a consistent, predictable AI experience that automatically respects your team&rsquo;s conventions and best practices.</p>
+<p>What truly became a game-changer for me is the consistency. Whether I&rsquo;m developing a new feature, debugging, or reviewing code, Amazon Q Developer now understands my context from the start. That means I can focus on solving the real problem instead of repeatedly explaining how I want things done.</p>
+<p>Understanding the rule lifecycle</p>
+<p>One thing that always surprises developers is how seamlessly rules integrate into Amazon Q Developer workflows. Understanding when and how rules are injected into context will help you get the most out of this capability. Here’s how it works:</p>
+<p>Rule lifecycle in Amazon Q Developer</p>
+<p>Rules are injected at a few important times:</p>
+<p>Initial context load: When you first interact with Amazon Q Developer in a project, it scans the .amazonq/rules directory and loads applicable rules into its context.</p>
+<p>Request processing: Before generating a response, Amazon Q Developer evaluates your request against the loaded rules to determine which rules apply.</p>
+<p>Response generation: While generating a response, Amazon Q Developer follows guidance from the active rules, prioritizing them based on assigned priority.</p>
+<p>Dynamic updates: If you modify existing rules or add new rules during a session, Amazon Q Developer detects those changes and updates its behavior accordingly.
+This continuous integration ensures Amazon Q Developer’s responses remain aligned with your standards without requiring you to repeat instructions in every conversation.</p>
+<p>Why rule-based AI matters
+What I value most about this approach is how it turns AI from a generic assistant into something that truly understands how your team works. Here are the main benefits I experienced:</p>
+<p>Consistency: Every team member gets the same AI-guided experience, ensuring code and documentation remain consistent regardless of who writes them.</p>
+<p>Knowledge preservation: Rules capture accumulated team knowledge and best practices so everyone can access them.</p>
+<p>Cognitive load reduction: You can focus on solving problems instead of remembering and enforcing standards.</p>
+<p>Faster onboarding: New team members automatically receive guidance aligned with your team’s practices.</p>
+<p>Adaptability: Rules can evolve with your project, ensuring AI support stays relevant as your needs change.</p>
+<p>The difference between a general AI assistant and a rule-guided assistant becomes clear quickly. A general AI may suggest any valid solution, while a rule-guided AI suggests solutions that fit your specific context and standards.</p>
+<p>Building effective rules: a practical approach</p>
+<p>Now that you’ve seen the power of rules, let me walk you through creating them. While there is no &ldquo;official&rdquo; format for Amazon Q Developer rules (the flexibility is one of the great aspects!), the approach I’m about to share has consistently worked well for me and my team.</p>
+<p>Rule file format and location
+Here’s what I’ve learned about organizing rules for Amazon Q Developer:</p>
+<p>Rules should be written in Markdown format (files ending with .md)</p>
+<p>They should be placed in the .amazonq/rules directory of your project</p>
+<p>You can use any file names you like, though descriptive names help organization (for example: monitoring-rule.md, frontend-react.rule.md)</p>
+<p>Rules can be organized into subfolders for better structure (for example: .amazonq/rules/frontend/react.rule.md)
+The filename itself is arbitrary — Amazon Q Developer will read the .md files in the directory. However, using meaningful names will make your rule system easier to maintain as it grows.</p>
+<p>Essential rule structure
+I find it most effective to create a well-designed rule file containing the following primary sections:</p>
+<h1 id="rule-name">Rule Name</h1>
+<h2 id="purpose">Purpose</h2>
+<p>A clear, concise statement explaining why this rule exists.</p>
+<h2 id="instructions">Instructions</h2>
+<ul>
+<li>Specific directives for Amazon Q Developer to follow</li>
+<li>Additional instructions with their own identifiers</li>
+<li>Conditions under which instructions apply</li>
+</ul>
+<h2 id="priority">Priority</h2>
+<p>[Critical/High/Medium/Low]</p>
+<h2 id="error-handling">Error Handling</h2>
+<ul>
+<li>How Amazon Q Developer should behave when exceptions occur</li>
+<li>Fallback strategies when primary instructions can&rsquo;t be followed</li>
+</ul>
+<p>Let me show you how this structure works with a complete example of a monitoring rule that has been particularly effective for my team:</p>
+<h1 id="monitoring">Monitoring</h1>
+<h2 id="purpose-1">Purpose</h2>
+<p>This rule ensures that monitoring coverage is maintained when major features are added to the project.</p>
+<h2 id="instructions-1">Instructions</h2>
+<ul>
+<li>When implementing a major feature (new service, API endpoint, or core functionality), ALWAYS check if MONITORING_PLAN.md needs updates.</li>
+<li>Major features include: new microservices, AI integrations, WebSocket endpoints, database operations, external API integrations, or user-facing functionality.</li>
+<li>ALWAYS update MONITORING_PLAN.md to include relevant metrics, dashboards, and alerts for the new feature.</li>
+<li>When updating monitoring plan, include: custom metrics, CloudWatch dashboards, alarms, and logging requirements specific to the new feature.</li>
+<li>After updating MONITORING_PLAN.md, ALWAYS output &ldquo;📊 Updated monitoring plan for: [feature description]&rdquo;.</li>
+</ul>
+<h2 id="priority-1">Priority</h2>
+<p>High</p>
+<h2 id="error-handling-1">Error Handling</h2>
+<ul>
+<li>If MONITORING_PLAN.md doesn&rsquo;t exist, create it with basic monitoring structure and note the creation</li>
+<li>If monitoring plan is unreadable, create a backup and start fresh with current feature requirements</li>
+<li>If unsure whether a feature qualifies as &ldquo;major&rdquo;, err on the side of caution and update monitoring plan</li>
+</ul>
+<p>I saved this as monitoring.rule.md in my project’s .amazonq/rules directory.</p>
+<p>Why the rule components work
+Now I’ll break down each component and show you why this structure is so effective.</p>
+<p>Rule name
+Think of this as the &ldquo;class name&rdquo; for your rule. The class name should be descriptive and domain-specific, such as &ldquo;Frontend – React&rdquo; or &ldquo;Monitoring&rdquo;. This helps categorize your rules into sensible buckets and makes them easier to maintain as your rule set grows.</p>
+<p>Purpose
+This section is crucial — it explains the &ldquo;why&rdquo; behind your rule. What I learned is that a clear purpose helps Amazon Q Developer understand the intent behind your instructions, allowing it to make better decisions in unexpected situations. Example:</p>
+<h2 id="purpose-2">Purpose</h2>
+<p>Ensures consistent monitoring coverage is maintained when adding new features to the project.</p>
+<p>That simple statement signals Amazon Q Developer to prioritize monitoring considerations even when they aren’t explicitly called out in your request.</p>
+<p>Instructions
+This is where the magic happens. Instructions are the specific directives that shape Amazon Q Developer’s behavior. I find the most effective instructions are:</p>
+<p>Clear and actionable</p>
+<p>Focused on a single aspect of behavior</p>
+<p>Formatted consistently for easy scanning</p>
+<p>Example:</p>
+<h2 id="instructions-2">Instructions</h2>
+<ul>
+<li>When implementing a major feature, ALWAYS check if MONITORING_PLAN.md needs updates.</li>
+<li>Major features include: new microservices, AI integrations, WebSocket endpoints.</li>
+<li>After updating MONITORING_PLAN.md, output &ldquo;📊 Updated monitoring plan for: [feature]&rdquo;.</li>
+</ul>
+<p>These clear, focused instructions give Amazon Q Developer concrete guidance on how to behave in different situations while maintaining consistent responses across your team.</p>
+<p>Priority
+Not all rules are created equal. What I discovered is that priority levels help Amazon Q Developer resolve conflicts when multiple rules might apply to a situation. I typically use four priority levels:</p>
+<p>Critical: Must be followed with no exceptions</p>
+<p>High: Should be followed unless it conflicts with a critical rule</p>
+<p>Medium: Important guidance that shapes behavior</p>
+<p>Low: Optional suggestions that can be overridden when necessary</p>
+<p>Error handling
+This often-overlooked section is what makes rules powerful in real-world situations. Good error-handling instructions tell Amazon Q Developer what to do when things don’t go as planned:</p>
+<h2 id="error-handling-2">Error Handling</h2>
+<ul>
+<li>If MONITORING_PLAN.md doesn&rsquo;t exist, create it with basic monitoring structure</li>
+<li>If unsure whether a feature qualifies as &ldquo;major,&rdquo; err on the side of caution</li>
+</ul>
+<p>These fallback strategies ensure Amazon Q Developer remains useful even when it encounters unexpected conditions.</p>
+<p>See rules in action
+To illustrate the effectiveness of this structure, here’s a simple example. Without rules, asking Amazon Q Developer to “add a new React component for the user profile” might result in a component that doesn’t match your project’s conventions.</p>
+<p>But with a well-designed frontend rule, Amazon Q Developer will automatically:</p>
+<p>Check the existing component structure</p>
+<p>Follow your naming conventions</p>
+<p>Create appropriate prop interfaces</p>
+<p>Add the right level of documentation</p>
+<p>Place the file in your preferred folder structure
+You don’t need to specify those details every time!</p>
+<p>Making rules transparent: a game-changing technique
+One especially effective technique I discovered is teaching Amazon Q Developer to explicitly acknowledge which rules it’s following. This is not default behavior for Amazon Q Developer, but it’s a custom enhancement you can implement via a specific conversation rule.</p>
+<p>Add unique traceable identifiers
+The core of this system is adding unique identifiers (IDs) to each instruction in your rule. For example:</p>
+<h2 id="instructions-3">Instructions</h2>
+<ul>
+<li>When implementing a major feature, ALWAYS check if MONITORING_PLAN.md needs updates. (ID: CHECK_MONITORING_PLAN)</li>
+<li>Major features include: new microservices, AI integrations, WebSocket endpoints. (ID: MAJOR_FEATURE_CRITERIA)</li>
+<li>After updating MONITORING_PLAN.md, output &ldquo;📊 Updated monitoring plan for: [feature]&rdquo;. (ID: ANNOUNCE_MONITORING_UPDATE)</li>
+</ul>
+<p>These IDs act as &ldquo;trackable signals&rdquo; that Amazon Q Developer can reference when following a rule.</p>
+<p>Create acknowledgment behavior
+Next, you can create a conversation rule that instructs Amazon Q Developer to acknowledge which rules it is applying. Here is a complete example of that rule:</p>
+<h1 id="conversation">Conversation</h1>
+<h2 id="purpose-3">Purpose</h2>
+<p>This rule defines how Amazon Q Developer should behave in conversations, including how it should acknowledge other rules it&rsquo;s following.</p>
+<h2 id="instructions-4">Instructions</h2>
+<ul>
+<li>ALWAYS consider your rules before using a tool or responding. (ID: CHECK_RULES)</li>
+<li>When acting based on a rule, ALWAYS print &ldquo;Rule used: <code>filename</code> (ID)&rdquo; at the very beginning of your response. (ID: PRINT_RULES)</li>
+<li>If multiple rules are matched, list all: &ldquo;Rule used: <code>file1.rule.md</code> (ID1), <code>file2.rule.md</code> (ID2)&rdquo;. (ID: PRINT_MULTIPLE)</li>
+<li>DO NOT start responses with general mentions about using rules or context, but DO print specific rule usage as specified above. (ID: NO_GENERIC_MENTIONS)</li>
+</ul>
+<h2 id="priority-2">Priority</h2>
+<p>Critical</p>
+<h2 id="error-handling-3">Error Handling</h2>
+<ul>
+<li>If rule files are unreadable, continue but note the issue</li>
+<li>If multiple conflicting rules apply, follow the highest priority rule and note the conflict</li>
+</ul>
+<p>Save this as conversation.rule.md in your .amazonq/rules directory.</p>
+<p>When Amazon Q Developer follows a rule, it will state which rule and identifier guided its action:</p>
+<p>You can ask Amazon Q Developer to state the instructions it is following.</p>
+<p>What I find most valuable about this simple addition are the noticeable benefits it brings:</p>
+<p>Transparency: Team members can immediately see which instructions influenced the Amazon Q Developer’s response</p>
+<p>Debugging: When Amazon Q Developer behaves unexpectedly, you can identify which rule caused the behavior</p>
+<p>Learning: New team members discover relevant rules by seeing which ones are applied</p>
+<p>Validation: You can confirm your rules are working as intended</p>
+<p>Continuous improvement: Identify which rules are used most often and which may need refinement</p>
+<p>By exposing rules, you turn Amazon Q Developer into a collaborative partner that not only follows your guidelines but helps team members discover and interact with your established processes. IDs are not just an organizational tool — they form the foundation of a self-documenting AI support process that becomes more valuable as your rule system grows.</p>
+<p>Start with your own rules</p>
+<p>What I like about this approach is you can start small. Begin with one or two rules that address your most common pain points, and expand as you see benefits. Good starting points include:</p>
+<p>Code style and organization rules</p>
+<p>Documentation standards</p>
+<p>Testing requirements</p>
+<p>Git commit message format</p>
+<p>Remember, the goal is not to create a comprehensive rulebook but to capture the aspects of your development process that most affect your team’s productivity and code quality.</p>
+<p>Real examples: rules in action
+To show the practical impact of rules, let me walk you through some specific situations that illustrate how rules transform the AI-assisted experience. These examples highlight the difference between generic AI assistance and rule-guided assistance.</p>
+<p>Scenario 1: Time-based data analysis
+This scenario demonstrates how rules help Amazon Q Developer understand your environment’s context for time-related operations and analyses. Below are examples of how I apply this rule in VS Code.</p>
+<p>Here is the rule I use to tell Amazon Q Developer how to behave when it needs to understand the current time:</p>
+<h1 id="time">Time</h1>
+<h2 id="purpose-4">Purpose</h2>
+<p>This rule defines how Amazon Q Developer (the agent) handles time-related operations and queries</p>
+<h2 id="instructions-5">Instructions</h2>
+<ul>
+<li>When determining the current time, ALWAYS use bash commands with AEST timezone: <code>date</code> (ID: GET_AEST_TIME)</li>
+<li>When timestamps are needed for logging or documentation, use ISO format with AEST timezone (ID: ISO_TIMESTAMP)</li>
+<li>When comparing times or calculating durations, ensure all times are in AEST for consistency (ID: CONSISTENT_TIMEZONE)</li>
+<li>For time-sensitive operations, always verify the current AEST time before proceeding (ID: VERIFY_TIME)</li>
+</ul>
+<h2 id="priority-3">Priority</h2>
+<p>Medium</p>
+<h2 id="error-handling-4">Error Handling</h2>
+<ul>
+<li>If date command fails, note the system time issue and continue with available information</li>
+<li>If timezone conversion is needed, use appropriate date formatting commands</li>
+</ul>
+<p>No rule:
+When Amazon Q Developer has no time rule, it lacks the necessary context for time-based queries:</p>
+<p>Amazon Q Developer interaction without a time rule</p>
+<p>As you can see, without the rule, Amazon Q Developer needs clarification about timezone context and does not know how to determine the current time in your environment.</p>
+<p>With the Time Rule:
+Here is a similar query with the time rule applied:</p>
+<p>Amazon Q Developer follows the rule guidance</p>
+<p>Notice how Amazon Q Developer immediately uses the date command to get the current AEST time, exactly as specified in the rule, without further clarification.</p>
+<p>Impact:</p>
+<p>Automatic context: Amazon Q Developer immediately knows to use the date command to fetch AEST time</p>
+<p>No need for explicit clarification: It understands &ldquo;yesterday&rdquo; relative to the current AEST time without asking</p>
+<p>Consistent behavior: The same approach applies to other time-based queries among team members</p>
+<p>Environment awareness: It knows exactly how to determine time in your specific system environment</p>
+<p>Transparent process: You can see it following the rule by using the bash date command as specified
+This example shows how a time rule turns a potentially confusing interaction into a smooth, context-aware analysis with consistent behavior.</p>
+<p>Scenario 2: UI component development
+This scenario demonstrates how rules can help prevent technical debt accumulation and maintain consistent component architecture across your team.</p>
+<p>No rule:
+When Amazon Q Developer has no frontend guidance, different developers might receive inconsistent suggestions for building components. Some might get immediately reusable components, others copy-paste solutions, and component organization can vary based on personal preference.</p>
+<p>With Frontend rules:
+Here is a practical React rule from my development process that addresses this consistency problem:</p>
+<h1 id="frontend---react">Frontend - React</h1>
+<h2 id="purpose-5">Purpose</h2>
+<p>Defines how to act when writing React</p>
+<h2 id="instructions-6">Instructions</h2>
+<ul>
+<li>ALWAYS evaluate reusability potential for new visual elements using these criteria: used in 2+ places, has configurable props, or represents a common UI pattern. (ID: EVALUATE_REUSABILITY)</li>
+<li>If reusability potential is high (meets 2+ criteria above), create a dedicated component in appropriate folder (components/, shared/, or ui/) with clear prop interfaces and JSDoc comments. (ID: CREATE_REUSABLE_COMPONENT)</li>
+<li>When creating reusable components, include explicit comments explaining: purpose, key props, usage examples, and any important behavior. (ID: DOCUMENT_COMPONENTS)</li>
+<li>Follow existing component structure and naming conventions found in the project&rsquo;s components folder. (ID: FOLLOW_CONVENTIONS)</li>
+<li>Prefer composition over inheritance - create small, focused components that can be combined. (ID: PREFER_COMPOSITION)</li>
+</ul>
+<h2 id="priority-4">Priority</h2>
+<p>Medium</p>
+<h2 id="error-handling-5">Error Handling</h2>
+<ul>
+<li>If component folder structure is unclear, place new components in src/components/ and ask user for preferred organization</li>
+<li>If existing conventions are inconsistent, follow the most recent or most common pattern and note the inconsistency</li>
+</ul>
+<p>Impact:</p>
+<p>Consistent architecture: Team members receive the same guidance for creating components regardless of experience level</p>
+<p>Reduced technical debt: Automatic reusability evaluation helps prevent duplicated UI components</p>
+<p>Better documentation: Components automatically include appropriate JSDoc comments and usage examples</p>
+<p>Maintainable structure: Consistent naming conventions and folder organization across the project</p>
+<p>Scalable patterns: The component-focused approach produces more flexible, reusable components</p>
+<p>This ensures that whether a junior developer or a senior architect works with Amazon Q Developer, the components produced conform to the same quality standards and architectural patterns.</p>
+<p>Scenario 3: Version control workflow
+This scenario demonstrates how rules can act as safety mechanisms and workflow gatekeepers, enabling version-control activities to be performed consistently.</p>
+<p>No rule:
+Amazon Q Developer might suggest git operations without considering your team’s workflow preferences or safety requirements. It might propose immediate pushes, generic commit messages, or skip confirmation steps that help prevent mistakes.</p>
+<p>With a Git Rule:
+Here is a real git rule that changes how Amazon Q Developer handles version-control operations:</p>
+<h1 id="git">Git</h1>
+<h2 id="purpose-6">Purpose</h2>
+<p>This rule dictates Amazon Q Developer (the agent) behavior related to git.</p>
+<h2 id="instructions-7">Instructions</h2>
+<ul>
+<li>ALWAYS ask confirmation from the user before pushing to git (ID: GIT_PUSH)</li>
+<li>ALWAYS ensure commit messages are meaningful and detailed, including what was changed and why (ID: GIT_COMMIT)</li>
+<li>Commit message should be accurate but playful and not too formal, with comprehensive details about the changes (ID: GIT_COMMIT_STYLE)</li>
+<li>Include specific files/components modified and the impact of changes in commit messages (ID: GIT_COMMIT_DETAILS)</li>
+</ul>
+<h2 id="priority-5">Priority</h2>
+<p>Medium</p>
+<h2 id="error-handling-6">Error Handling</h2>
+<p>N/A</p>
+<p>Here is the rule applied when I asked Amazon Q Developer to commit our changes:</p>
+<p>Let&rsquo;s commit our latest changes to git.
+Rule used: git.rule.md (GIT_COMMIT), git.rule.md (GIT_COMMIT_STYLE), git.rule.md (GIT_COMMIT_DETAILS)
+I&rsquo;ll commit all the changes we&rsquo;ve made to remove messaging functionality and focus the platform on location-based discovery. Let me create a comprehensive commit with all the modifications.
+🛠️ Using tool: execute_bash (trusted)
+● I will run the following shell command:
+cd /path/to/your/project/rules-blog &amp;&amp; git status
+↳ Purpose: Check git status to see all changed files
+On branch main
+Changes not staged for commit:
+[&hellip; output truncated for brevity &hellip;]
+Untracked files:
+[&hellip; output truncated for brevity &hellip;]
+● Completed in 0.54s
+🛠️ Using tool: execute_bash (trusted)
+● I will run the following shell command:
+cd /path/to/your/project/rules-blog &amp;&amp; git add .
+↳ Purpose: Add all changes to git staging
+● Completed in 0.101s
+🛠️ Using tool: execute_bash (trusted)
+● I will run the following shell command:
+cd /path/to/your/project/rules-blog &amp;&amp; git commit -m &ldquo;🎯 Refocus platform on location-based discovery: Remove messaging, complete React app Major platform refocus to pure location-based discovery: MESSAGING FUNCTIONALITY REMOVED: [&hellip; output truncated for brevity &hellip;] DOCUMENTATION UPDATES: [&hellip; output truncated for brevity &hellip;] INFRASTRUCTURE IMPROVEMENTS: [&hellip; output truncated for brevity &hellip;] PLATFORM FOCUS NOW: ✅ Location-based discovery ✅ Browsing and following ✅ Information and contact details ✅ Notifications by location ❌ No messaging/booking - pure discovery platform Files modified: 13 core files, 1 new frontend package Infrastructure: 7 Lambda functions, tagged resources, clean API Tests: 12/12 passing, production build successful&rdquo; [&hellip; output truncated for brevity &hellip;]</p>
+<p>Note: Notice how Amazon Q Developer automatically displays
+Rule used: git.rule.md (GIT_COMMIT), git.rule.md (GIT_COMMIT_STYLE), git.rule.md (GIT_COMMIT_DETAILS)
+at the start of the response — this is the rule transparency system we discussed earlier in action, showing exactly which rule instructions guided the creation of the commit message.</p>
+<p>Impact:</p>
+<p>Prevents accidents: Requiring confirmation prevents accidental pushes that could disrupt team workflows</p>
+<p>Consistent commit quality: Commit messages follow the same detailed, informative style regardless of who does the work</p>
+<p>Team personality: The &ldquo;playful but not overly formal&rdquo; style preserves team culture while remaining professional</p>
+<p>Better git history: Detailed commit messages make code archaeology far easier for future debugging</p>
+<p>Workflow safety: Acts as a safety gate that preserves human oversight in critical operations</p>
+<p>This rule demonstrates that Amazon Q Developer can be more than a code assistant — it becomes a workflow partner that understands and enforces your team&rsquo;s operational choices and safety requirements.</p>
+<p>Next steps for rule-driven development
+Through exploring Amazon Q Developer’s rules, we discovered how a simple concept — define your preferences once instead of repeating them — can transform your development workflow. The main lessons are clear: rules reduce repetitive setup, support team consistency, preserve organizational knowledge, and create transparent AI interactions that become more valuable over time.</p>
+<p>Reduced cognitive load, faster onboarding, consistent code quality, and AI that truly understands your team&rsquo;s context — the initial solution to repetitive explanations has evolved into a comprehensive system to scale development processes across my team.</p>
+<p>My Amazon Q Developer rule system continues to evolve, and I’m excited about the possibilities ahead. As more teams adopt this approach, I hope we’ll see community-shared rule libraries and even more sophisticated customization options.</p>
+<p>What I find most promising is how rules lay the groundwork for more advanced AI assistance. When your AI assistant deeply understands your context, it can offer more nuanced suggestions and detect potential issues before they become problems.</p>
+<p>I encourage you to start experimenting with rules — pick an area where you frequently repeat instructions to the AI assistant and create your first rule. You’ll be surprised how quickly this approach transforms your development workflow.</p>
+<p>Importantly, remember that rules are not intended to stifle creativity — they free you to focus on the interesting problems by automating routine decisions. When Amazon Q Developer understands how you want things done, you can spend more time on what you’re building and less time on how you build it.</p>
+<p>Are you ready to get started with Amazon Q Developer rules for developers? See the Amazon Q Developer documentation for setup guidance and additional examples.</p>
+<p>TAGS: Developer Tools</p>
+
+
+
+
+
+<footer class=" footline" >
+	
+</footer>
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="../../3-blogstranslated/3.1-blog1/" title="Blog 1"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="../../3-blogstranslated/3.3-blog3/" title="Blog 3" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="../../js/clipboard.min.js?1765273466"></script>
+    <script src="../../js/perfect-scrollbar.min.js?1765273466"></script>
+    <script src="../../js/perfect-scrollbar.jquery.min.js?1765273466"></script>
+    <script src="../../js/jquery.sticky.js?1765273466"></script>
+    <script src="../../js/featherlight.min.js?1765273466"></script>
+    <script src="../../js/highlight.pack.js?1765273466"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="../../js/modernizr.custom-3.6.0.js?1765273466"></script>
+    <script src="../../js/learn.js?1765273466"></script>
+    <script src="../../js/hugo-learn.js?1765273466"></script>
+
+    <link href="../../mermaid/mermaid.css?1765273466" rel="stylesheet" />
+    <script src="../../mermaid/mermaid.js?1765273466"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    <script>
+  (function (i, s, o, g, r, a, m) {
+    i["GoogleAnalyticsObject"] = r;
+    ((i[r] =
+      i[r] ||
+      function () {
+        (i[r].q = i[r].q || []).push(arguments);
+      }),
+      (i[r].l = 1 * new Date()));
+    ((a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]));
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m);
+  })(
+    window,
+    document,
+    "script",
+    "https://www.google-analytics.com/analytics.js",
+    "ga",
+  );
+
+  ga("create", "UA-158079754-2", "auto");
+  ga("send", "pageview");
+</script>
+
+  </body>
+</html>
